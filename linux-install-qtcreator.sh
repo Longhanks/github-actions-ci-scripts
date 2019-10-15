@@ -6,6 +6,6 @@ if [ ! -f /usr/bin/install-qt ]; then
 fi
 
 mkdir -p /opt/qtcreator
-wget -nv https://download.qt.io/official_releases/qtcreator/4.10/4.10.0/qt-creator-opensource-linux-x86_64-4.10.0.run
-extract-qt-installer qt-creator-opensource-linux-x86_64-4.10.0.run /opt/qtcreator
-rm qt-creator-opensource-linux-x86_64-4.10.0.run
+wget -nv https://download.qt.io/official_releases/qtcreator/4.10/4.10.1/qt-creator-opensource-linux-x86_64-4.10.1.run
+extract-qt-installer qt-creator-opensource-linux-x86_64-4.10.1.run /opt/qtcreator
+rm qt-creator-opensource-linux-x86_64-4.10.1.run

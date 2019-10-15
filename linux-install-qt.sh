@@ -1,3 +1,5 @@
+apt install -y mesa-common-dev
+
 if [ ! -f /usr/bin/install-qt ]; then
     wget -nv https://github.com/benlau/qtci/raw/master/recipes/install-qt -O /usr/bin/install-qt
     chmod +x /usr/bin/install-qt
