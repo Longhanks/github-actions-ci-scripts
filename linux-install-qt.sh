@@ -7,6 +7,6 @@ if [ ! -f /usr/bin/install-qt ]; then
     chmod +x /usr/bin/extract-qt-installer
 fi
 
-export QT_CI_PACKAGES=qt.qt5.5132.gcc_64
+export QT_CI_PACKAGES=qt.qt5.5140.gcc_64
 export QT_CI_DOWNLOADER="wget -c -nv -N"
-install-qt 5.13.2 /
+install-qt 5.14.0 /
